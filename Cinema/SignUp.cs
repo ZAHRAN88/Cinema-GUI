@@ -80,7 +80,7 @@ namespace Cinema
             }
             catch (Exception ex)
             {
-                MessageBox.Show("An error occurred while saving user information: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("An error  occurred while saving user information: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }
